@@ -101,6 +101,12 @@
 .mt-100{
     margin-top: 100px;
 }
+.mt-60{
+    margin-top: 60px;
+}
+.pb-25{
+    padding-bottom: 25px;
+}
 
 .f-team {
     color: var(--gray-paragraph, #7B7B7B);
