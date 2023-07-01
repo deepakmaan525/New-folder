@@ -30,6 +30,11 @@
     padding-left: 12px;
     padding-right: 12px;
 }
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
 
 .card {
 
@@ -104,6 +109,9 @@
 .mt-60{
     margin-top: 60px;
 }
+.mb-24{
+    margin-bottom: 24px;
+}
 .pb-25{
     padding-bottom: 25px;
 }
@@ -116,7 +124,7 @@
     line-height: 150.6%;
     text-align: center;
 }
-
+ 
 .f-people {
     color: #373737;
     text-align: center;
@@ -234,4 +242,31 @@ article:hover .bg-white {
 
 article:hover .bg-orange {
     right: 0;
+}
+@media (min-width:576px) {
+    .col-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:768px) {
+    .col-md-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:992px) {
+    .col-lg-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .mb-lg-0 {
+        margin-bottom: 0;
+    }
 }
